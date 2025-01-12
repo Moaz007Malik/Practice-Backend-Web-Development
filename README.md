@@ -40,12 +40,12 @@ Ensure you have the following installed on your system:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-github-username>/<repository-name>.git
+   git clone https://github.com/Moaz007Malik/Practice-Backend-Web-Development.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd <repository-name>
+   cd Practice-Backend-Web-Development
    ```
 
 3. Install dependencies:
