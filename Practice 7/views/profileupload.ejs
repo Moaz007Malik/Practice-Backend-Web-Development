@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Upload Profile Picture</title>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
+    <div class="w-full max-w-lg bg-white rounded-xl shadow-lg p-8">
+        <h1 class="text-3xl font-bold text-gray-800 text-center mb-6">Upload Profile Picture</h1>
+        <p class="text-center text-gray-500 mb-8">Upload your files...</p>
+        <form action="/upload" method="post" class="space-y-6" enctype="multipart/form-data">
+            <!-- Email -->
+            <div>
+                <label for="image" class="block text-sm font-medium text-gray-700">File</label>
+                <input type="file" id="image" name="image" class="mt-1 block w-full px-4 py-2 rounded-lg border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="you@example.com">
+            </div>
+            <!-- Submit Button -->
+            <input value="Upload File!" type="submit" class="w-full py-3 rounded-lg bg-indigo-600 text-white font-medium text-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        </form>
+    </div>
+</body>
+</html>
